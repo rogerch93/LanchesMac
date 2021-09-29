@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L6vldFXbfNxp08Tpjm+g09ASYus29AM1XQvmW+my5zLuyw66d4CIJVNbIrwOO7uxNjS4lUZg/OLx/1uEQqEoDQ==",
+  "dgSpecHash": "aTBxVqGB4HR0hkvu/ixb3ggv3zIE0FeiJBYiIKX3yd0pUBay8GyuxdFF8Ip+UoIBsKzeKCnDU7jd2rK0qg5l3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roger.DESKTOP-FT9COCG\\source\\repos\\LanchesMacApp\\LanchesMacApp.csproj",
+  "projectFilePath": "C:\\Users\\roger.DESKTOP-FT9COCG\\Desktop\\DIO\\C#\\LanchesMac\\LanchesMacApp\\LanchesMacApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roger.DESKTOP-FT9COCG\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\roger.DESKTOP-FT9COCG\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

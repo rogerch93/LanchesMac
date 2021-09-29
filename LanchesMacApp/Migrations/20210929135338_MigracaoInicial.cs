@@ -12,8 +12,8 @@ namespace LanchesMacApp.Migrations
                 {
                     CategoriaId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CategoriaNome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    CategoriaNome = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    Descricao = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -26,12 +26,12 @@ namespace LanchesMacApp.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DescricaoCurta = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DescricaoDetalhada = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Nome = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    DescricaoCurta = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    DescricaoDetalhada = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
                     Preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    ImagemUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ImagemThumbnailUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImagemUrl = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    ImagemThumbnailUrl = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
                     IsLanchePreferido = table.Column<bool>(type: "bit", nullable: false),
                     Estoque = table.Column<bool>(type: "bit", nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false)
