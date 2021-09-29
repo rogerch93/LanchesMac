@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:43693",
-      "sslPort": 44365
+      "applicationUrl": "http://localhost:54011",
+      "sslPort": 44381
     }
   },
   "profiles": {
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "LanchesMac": {
+    "LanchesMacApp": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
